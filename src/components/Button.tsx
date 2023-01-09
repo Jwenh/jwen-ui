@@ -1,3 +1,5 @@
+import { defineComponent } from 'vue'
+
 const button = ()=>{
     return (
         <div>
@@ -6,4 +8,9 @@ const button = ()=>{
     )
 }
 
-export default button
+export default  defineComponent({
+    name:'MyButton',
+    setup(){
+        return button
+    }
+})

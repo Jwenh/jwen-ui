@@ -8,7 +8,7 @@ export {
 
 // 全局导入组件， 使用 app.use() 会调用对应的install方法
 export default {
-    install(app:App):void{
-        app.component(MyButton.name,MyButton)
+    install(app: App): void {
+        app.component(MyButton.name, MyButton)
     }
 }
