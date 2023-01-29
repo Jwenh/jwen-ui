@@ -2,7 +2,10 @@
 </script>
 
 <template>
-  <div>app view</div>
+  <div>
+  app view
+  <div><MyButton/></div>
+  </div>
 </template>
 
 <style scoped>

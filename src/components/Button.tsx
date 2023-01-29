@@ -2,7 +2,7 @@ import { defineComponent } from 'vue'
 
 const button = ()=>{
     return (
-        <div>
+        <div className='text-orange-600	'>
             <button>myButton</button>
         </div>
     )

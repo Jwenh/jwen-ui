@@ -13,9 +13,12 @@
     "skipLibCheck": true,
     "noEmit": true,
     "declaration": true, /*生成相关的 d.ts 文件*/
-    "declarationDir": "./dist/types"  /* 生成的d.ts文件目录 */
+    "declarationDir": "./dist/types",  /* 生成的d.ts文件目录 */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules","dist"],
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

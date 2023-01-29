@@ -32,8 +32,11 @@ export default {
             ]
         },
         {
-          text:'按钮',
-          link:'/pages/button'
+          text:'组件的使用',
+          items:[
+            {text:'按钮',link:'/pages/button'}
+          ]
+          
       }
     ]
     }

@@ -25,4 +25,9 @@ export default defineConfig({
     }
   },
   plugins: [vue(),vueJsx()],
+  resolve:{
+    alias:{
+      '@':'./src'
+    }
+  }
 })
